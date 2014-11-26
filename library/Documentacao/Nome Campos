@@ -1,0 +1,20 @@
+Usuario
+Nome,  Email,  Senha,  Usuario, cpf, data nascimento, Telefone
+
+cd_usu, nm_usu, email_usu, senha_usu, cpf_usu, dt_nasc_usu, fn_usu
+
+CREATE TABLE `SGI`.`scu_t0001` (
+  `cd_usu` INT NOT NULL,
+  `nm_usu` VARCHAR(45) NOT NULL,
+  `email_usu` VARCHAR(45) NOT NULL,
+  `senha_usu` VARCHAR(45) NOT NULL,
+  `cpf_usu` VARCHAR(11) NOT NULL,
+  `dt_nasc_usu` VARCHAR(10) NOT NULL,
+  `fn_usu` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`cd_usu`));
+
+###########################################################################################
+
+
+
+O login do usuario será feito atraves do numero do cpf
